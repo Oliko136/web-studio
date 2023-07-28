@@ -1,0 +1,118 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --tertiary-text-color: #ffffff; 
+    --accent-color: #2196F3;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #F5F4FA;
+    --tertiary-bg-color: #2F303A; 
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color) ;
+}
+
+/* Header */
+.logo {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.site-nav {
+    list-style: none;
+}
+
+.site-nav-item {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.site-nav-item.current {
+    color: var(--accent-color);
+}
+
+.site-nav-item:hover,
+.site-nav-item:focus {
+    color: var(--accent-color);
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-item {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--tertiary-bg-color);
+}
+
+.hero-title {
+    color: var(--tertiary-text-color);
+}
+
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--tertiary-text-color);
+
+    border: none;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188CE8;
+}
+
+/* Features */
+.features-list {
+    list-style: none;
+}
+
+.features-description {
+    color: var(--secondary-text-color);
+}
+
+/* Work */
+.work-list {
+    list-style: none;
+}
+
+/* Team */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-position {
+    color: var(--secondary-text-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--tertiary-bg-color);
+}
+
+.footer-logo {
+    color: var(--tertiary-text-color);
+}
+
+.address {
+    color: var(--tertiary-text-color);
+}
