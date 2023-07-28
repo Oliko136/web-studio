@@ -178,6 +178,11 @@ body {
     background-color: var(--secondary-bg-color);
     color: inherit;
 
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: inherit;
     border: none;
     cursor: pointer;
 }
@@ -194,12 +199,21 @@ body {
 
 .project-link {
     color: inherit;
-
     text-decoration: none;
+}
+
+.project-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .project-type {
     color: var(--secondary-text-color);
+
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 /* Footer */
