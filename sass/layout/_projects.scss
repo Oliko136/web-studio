@@ -1,0 +1,80 @@
+.projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * $portfolio-card-margin);
+    margin-top: calc(-1 * $portfolio-card-margin);
+
+    @extend %list;
+}
+
+.projects__card {
+    flex-basis: calc(100% / 3 - $portfolio-card-margin);
+    margin-left: $portfolio-card-margin;
+    margin-top: $portfolio-card-margin;
+    border-bottom: 1px solid #EEEEEE;
+
+    transition: box-shadow 240ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.projects__link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.projects__thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.projects__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 63px 24px;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(33, 150, 243, 0.90);
+    color: $tertiary-text-color;
+
+    font-size: 18px;
+    line-height: 1.5;
+
+    opacity: 0;
+
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .projects__card:hover &,
+    .projects__card:focus & {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.projects__text {
+    padding: 20px 22px;
+}
+
+.projects__name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects__type {
+    color: $secondary-text-color;
+
+    font-size: 16px;
+    line-height: 1.8;
+}
