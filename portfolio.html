@@ -21,6 +21,14 @@
             <a href="/" lang="en" class="logo header__logo">
                     <span lang="en"><span class="logo--accent">Web</span>Studio</span>
             </a>
+            <button type="button" class="menu-btn" data-menu-button>
+                <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+                    <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+                    <use class="icon-menu-close" href="./images/icons.svg#icon-menu-close"></use>
+                </svg>
+            </button>
+
+            <div class="menu-container" data-menu>
             <nav>
                 <ul class="site-nav">
                     <li class="site-nav__item"><a href="./index.html" class="site-nav__link ">Студія</a></li>
@@ -39,6 +47,7 @@
                         <use href="./images/icons.svg#icon-smartphone"></use>
                     </svg>+38 096 111 11 11</a></li>
             </ul>
+        </div>
        </div>
     </header>
 
@@ -57,7 +66,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img1.jpg" alt="Мокап веб-сайта на десктопі" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img1-mobile.jpg 1x, ./images/img1-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img1-tablet.jpg 1x, ./images/img1-tablet@2x.jpg 2x">
+                                <source srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x">
+                                <img src="#" alt="Мокап веб-сайта на десктопі" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -70,7 +84,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img2.jpg" alt="Постер з баскетболістами" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img2-mobile.jpg 1x, ./images/img2-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img2-tablet.jpg 1x, ./images/img2-tablet@2x.jpg 2x">
+                                <source srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x">
+                                <img src="#" alt="Постер з баскетболістами" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -83,7 +102,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img3.jpg" alt="Лого ресторану" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img3-mobile.jpg 1x, ./images/img3-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img3-tablet.jpg 1x, ./images/img3-tablet@2x.jpg 2x">
+                                <source srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x">
+                                <img src="#" alt="Лого ресторану" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -96,7 +120,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img4.jpg" alt="Навушники" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img4-mobile.jpg 1x, ./images/img4-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img4-tablet.jpg 1x, ./images/img4-tablet@2x.jpg 2x">
+                                <source srcset="./images/img4.jpg 1x, ./images/img4@2x.jpg 2x">
+                                <img src="#" alt="Навушники" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -109,7 +138,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img5.jpg" alt="Коробки" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img5-mobile.jpg 1x, ./images/img5-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img5-tablet.jpg 1x, ./images/img5-tablet@2x.jpg 2x">
+                                <source srcset="./images/img5.jpg 1x, ./images/img5@2x.jpg 2x">
+                                <img src="#" alt="Коробки" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -122,7 +156,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img6.jpg" alt="Веб-сайт на десктопі" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img6-mobile.jpg 1x, ./images/img6-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img6-tablet.jpg 1x, ./images/img6-tablet@2x.jpg 2x">
+                                <source srcset="./images/img6.jpg 1x, ./images/img6@2x.jpg 2x">
+                                <img src="#" alt="Веб-сайт на десктопі" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -135,7 +174,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img7.jpg" alt="Відкритий журнал" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img7-mobile.jpg 1x, ./images/img7-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img7-tablet.jpg 1x, ./images/img7-tablet@2x.jpg 2x">
+                                <source srcset="./images/img7.jpg 1x, ./images/img7@2x.jpg 2x">
+                                <img src="#" alt="Відкритий журнал" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -148,7 +192,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img8.jpg" alt="Бірка" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img8-mobile.jpg 1x, ./images/img8-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img8-tablet.jpg 1x, ./images/img8-tablet@2x.jpg 2x">
+                                <source srcset="./images/img8.jpg 1x, ./images/img8@2x.jpg 2x">
+                                <img src="#" alt="Бірка" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -161,7 +210,12 @@
                 <li class="projects__card">
                     <a href="" class="projects__link">
                         <div class="projects__thumb">
-                            <img src="./images/img9.jpg" alt="Веб-додаток на десктопі" width="370">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./images/img9-mobile.jpg 1x, ./images/img9-mobile@2x.jpg 2x">
+                                <source media="(max-width: 1199px)" srcset="./images/img9-tablet.jpg 1x, ./images/img9-tablet@2x.jpg 2x">
+                                <source srcset="./images/img9.jpg 1x, ./images/img9@2x.jpg 2x">
+                                <img src="#" alt="Веб-додаток на десктопі" width="100%">
+                            </picture>
                             <p class="projects__overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                 вичерпні відомості про компанію чи приватну особу.</p>
                         </div>
@@ -229,5 +283,8 @@
         </form>
       </div>
     </footer>
+
+    <!-- Mobile menu JS script -->
+    <script src="./js/menu.js"></script>
 </body>
 </html>
